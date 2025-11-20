@@ -6,3 +6,5 @@ export const signToken = (payload, options = {}) =>
 
 export const verifyToken = (token) => jwt.verify(token, env.jwtSecret);
 
+
+
