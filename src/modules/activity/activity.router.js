@@ -9,3 +9,5 @@ router.get('/', validateRequest(listActivitySchema), listActivityHandler);
 
 export default router;
 
+
+
